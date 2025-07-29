@@ -133,7 +133,7 @@ const meta = {
       table: {
         category: "viewConfiguration",
         type: {
-          summary: "EnetsViewOptions",
+          summary: "EventsViewOptions",
           detail: JSON.stringify(defaultViewConfig.events, null, 2),
         },
       },

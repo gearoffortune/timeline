@@ -40,7 +40,7 @@ export type AxesViewOptions = {
   solidLinePattern?: [number, number];
 };
 
-export type EnetsViewOptions = {
+export type EventsViewOptions = {
   hitboxPadding?: number;
   font?: string;
 };
@@ -60,7 +60,7 @@ export type ViewConfiguration = {
   ruler?: RulerViewOptions;
   grid?: GridViewOptions;
   axes?: AxesViewOptions;
-  events?: EnetsViewOptions;
+  events?: EventsViewOptions;
   markers?: MarkerViewOptions;
   hideRuler?: boolean;
 };
